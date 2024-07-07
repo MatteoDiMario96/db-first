@@ -1,0 +1,18 @@
+id                              MEDIUMINT                   PRIMARY_KEY                     AUTO_INCREMENT                      NOT_NULL
+marca                           VARCHAR(30)                                                                                     NOT_NULL
+modello                         VARCHAR(50)                                                                                     NOT_NULL
+alimentazione                   VARCHAR(20)                                                                                     NOT_NULL
+cilindrata                      SMALLINT                    UNSIGNED                                                            NOT_NULL
+numero_telaio                   VARCHAR(17)                 UNIQUE                                                              NOT_NULL
+potenza_kw                      SMALLINT                    UNSIGNED                                                            NOT_NULL
+numero_targa                    VARCHAR(7)                                                                                      NOT_NULL
+trazione                        VARCHAR(10)                                                                                     NULL
+prima_immatricolazione          SMALLINT                    UNSIGNED                                                            NOT_NULL
+classe_inquinamento             VARCHAR(7)                                                                                      NOT_NULL
+tipo_cambio                     VARCHAR(10)                                                                                     NOT_NULL
+veicolo_commericiale            VARCHAR(2)                                                                                      NULL
+numero_propietari               TINYINT                     UNSIGNED                                                            NULL
+disponibile_ora                 VARCHAR(2)                                                                                      NOT_NULL
+colore                          VARCHAR(20)                                                                                     NOT_NULL
+adatta_neopatentati             VARCHAR(2)                                                                                      NOT_NULL
+note                            TEXT                                                                                            NULL
